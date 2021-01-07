@@ -326,6 +326,39 @@
         }
       },
       {
+        "HashCode": -156911296,
+        "Kind": "Components.Component",
+        "Name": "WaterPlants.App",
+        "AssemblyName": "WaterPlants",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WaterPlants.App"
+        }
+      },
+      {
+        "HashCode": -1279780220,
+        "Kind": "Components.Component",
+        "Name": "WaterPlants.App",
+        "AssemblyName": "WaterPlants",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "WaterPlants.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "WaterPlants.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -127944600,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.Authorization.AuthorizeRouteView",
