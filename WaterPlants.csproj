@@ -9,4 +9,9 @@
     <PackageReference Include="Microsoft.Azure.SignalR" Version="1.4.0" />
   </ItemGroup>
 
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="npm install" />
+    <Exec Command="npm run build" />
+  </Target>
+
 </Project>
